@@ -1,6 +1,6 @@
 {
-  "name": "n8n-nodes-prospeo",
-  "version": "1.0.0",
+  "name": "@prospeo/n8n-nodes-prospeo",
+  "version": "0.0.1",
   "description": "n8n community node for Prospeo - Find people and company data and enrich them with verified emails and mobile numbers.",
   "license": "MIT",
   "homepage": "https://prospeo.io",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/prospeo-v2/n8n-nodes-prospeo.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "n8n-node build",
