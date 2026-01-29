@@ -12,8 +12,7 @@ export class ProspeoApi implements ICredentialType {
 
 	icon = 'file:../nodes/Prospeo/prospeo-logo.svg' as const;
 
-	// Link to your community node's README
-	documentationUrl = 'https://github.com/org/-prospeo?tab=readme-ov-file#credentials';
+	documentationUrl = 'https://github.com/prospeo-v2/n8n-nodes-prospeo/blob/main/README.md#credentials';
 
 	properties: INodeProperties[] = [
 		{
