@@ -1,11 +1,25 @@
 {
   "name": "@prospeo/n8n-nodes-prospeo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "n8n community node for Prospeo - Find people and company data and enrich them with verified emails and mobile numbers.",
   "license": "MIT",
   "homepage": "https://prospeo.io",
-  "keywords": ["n8n-community-node-package", "prospeo", "n8n", "sales", "marketing", "crm", "leads", "data-enrichment", "company-data", "contact-data"],
-  "author": { "name": "Apoorva Pandey", "email": "apoorva@prospeo.io" },
+  "keywords": [
+    "n8n-community-node-package",
+    "prospeo",
+    "n8n",
+    "sales",
+    "marketing",
+    "crm",
+    "leads",
+    "data-enrichment",
+    "company-data",
+    "contact-data"
+  ],
+  "author": {
+    "name": "Apoorva Pandey",
+    "email": "apoorva@prospeo.io"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/prospeo-v2/n8n-nodes-prospeo.git"
@@ -22,12 +36,18 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": true,
-    "credentials": ["dist/credentials/ProspeoApi.credentials.js"],
-    "nodes": ["dist/nodes/Prospeo/Prospeo.node.js"]
+    "credentials": [
+      "dist/credentials/ProspeoApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Prospeo/Prospeo.node.js"
+    ]
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
@@ -36,5 +56,7 @@
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
-  "peerDependencies": { "n8n-workflow": "*" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
